@@ -21,7 +21,6 @@ const Home: NextPage = () => {
       });
     });
     document.querySelectorAll(".fade-in").forEach(element => {
-      console.log("observing")
       observer.observe(element);
     });
   }, []);
@@ -38,10 +37,10 @@ const Home: NextPage = () => {
           <h1 className="text-gray-300 text-7xl mb-2 font-bold transition-all delay-200 duration-200 fade-in">Nathan Sanchez.</h1>
           <p className="text-gray-400 text-xl mb-5 transition-all delay-300 duration-200 fade-in">{"I'm a student at ASU studying computer science. I'm interested in graphics development and also fullstack development. Currently I'm looking to expand my knowledge by working on numerous projects and improve."}</p>
           <a href="#projects">
-            <div className="border-white border-2 rounded-sm text-white text-2xl p-5 text-center hover:bg-white hover:text-black cursor-pointer flex items-center w-fit transition-all delay-500 duration-200 fade-in">
+            <div className="border-white border-2 rounded-sm text-white text-2xl p-5 text-center hover:bg-white hover:text-black cursor-pointer flex items-center w-fit transition-fade fade-in transition-opacity">
               <p>See Projects</p>
               <AiOutlineArrowRight className="w-10 ml-2"/>
-              </div>
+            </div>
           </a>
         </div>
       </section>
