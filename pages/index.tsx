@@ -6,6 +6,8 @@ import styles from '../styles/Home.module.css'
 import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
+import '../public/kotaro-example.png'
+import '../public/pengo-example.png'
 
 const Home: NextPage = () => {
   useEffect(() => {
