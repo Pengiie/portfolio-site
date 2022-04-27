@@ -26,8 +26,8 @@ const Home: NextPage = () => {
   return (
     <PageLayout className="w-full absolute pb-12">
       <div className="fixed flex flex-col left-5 bottom-0">
-        <a href="https://github.com/Pengiie" target="_blank"><AiFillGithub className="w-8 h-8 fill-white hover:fill-palette-1 my-1"/></a>
-        <a href="mailto:nathan@pengie.dev" target="_blank"><AiOutlineMail className="w-8 h-8 fill-white hover:fill-palette-1 my-1 mb-3"/></a>
+        <a href="https://github.com/Pengiie" target="_blank" rel="noreferrer"><AiFillGithub className="w-8 h-8 fill-white hover:fill-palette-1 my-1"/></a>
+        <a href="mailto:nathan@pengie.dev" target="_blank" rel="noreferrer"><AiOutlineMail className="w-8 h-8 fill-white hover:fill-palette-1 my-1 mb-3"/></a>
         <div className="self-center h-12 w-0.5 bg-white" />
       </div>
       <section className="bg-palette-2 h-screen">
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
                 <p className="text-gray-200 text-lg mb-5">A small game engine written in Kotlin that has basic rendering, asset system, physics, and more. Although the project was never "finished", the engine is still usable for simple games.</p>
               </div>
               <div className="mt-4 max-w-[2.25rem]">
-                <a href="https://github.com/Pengiie/kotarOld" target="_blank" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
+                <a href="https://github.com/Pengiie/kotarOld" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
             <img src="kotaro-example.png" className="z-0 w-7/12"/>
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
                 <p className="text-gray-200 text-lg mb-5">A small programming language created in C++ in ~10 days. This project allowed me to learn how programming languages are parsed and compiled/interpreted.</p>
               </div>
               <div className="mt-4 max-w-[2.25rem] float-right">
-                <a href="https://github.com/Pengiie/Pengo" target="_blank" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
+                <a href="https://github.com/Pengiie/Pengo" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
             <img src="pengo-example.png" className="w-7/12 z-0"/>
