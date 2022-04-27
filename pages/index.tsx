@@ -6,8 +6,8 @@ import styles from '../styles/Home.module.css'
 import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
-import '../public/kotaro-example.png'
-import '../public/pengo-example.png'
+import kotaro from '../public/kotaro-example.png'
+import pengo from '../public/pengo-example.png'
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             <div className="flex-grow bg-white opacity-25 h-0.5 ml-3"/>
           </div>
           <section className="w-full flex transition-all duration-500 delay-300 fade-in">
-            <div className = "overflow-visible z-50 mt-10 flex-grow">
+            <div className = "overflow-visible z-50 mt-10 w-5/12">
               <div className="text-lg text-palette-1 flex-col font-thin">Game Engine<h2 className="text-gray-300 text-4xl font-semibold">Kotaro</h2></div>
               <div className="mt-4 p-4 bg-slate-800 rounded-md w-[120%] z-50 overflow-visible pb-2">
                 <p className="text-gray-200 text-lg mb-5">{'A small game engine written in Kotlin that has basic rendering, asset system, physics, and more. Although the project was never "finished", the engine is still usable for simple games.'}</p>
@@ -78,10 +78,12 @@ const Home: NextPage = () => {
                 <a href="https://github.com/Pengiie/kotarOld" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
-            <Image src="kotaro-example.png" className="z-0 w-7/12" alt=""/>
+            <div className="w-7/12 min-h-full">
+              <Image src="/kotaro-example.png" className="z-0" alt="" layout="responsive" width="100%" height="56.25%" />
+            </div>
           </section>
           <section className="w-full flex flex-row-reverse mt-20 transition-all duration-500 delay-300 fade-in">
-            <div className = "overflow-visible z-50 mt-10 flex-grow">
+            <div className = "overflow-visible z-50 mt-10 w-5/12">
               <div className="text-lg text-palette-1 flex-col font-thin text-right">Programming Language<h2 className="text-gray-300 text-4xl font-semibold">Pengo</h2></div>
               <div className="mt-6 p-4 bg-slate-800 rounded-md w-[120%] z-50 overflow-visible pb-2 right-0 float-right">
                 <p className="text-gray-200 text-lg mb-5">A small programming language created in C++ in ~10 days. This project allowed me to learn how programming languages are parsed and compiled/interpreted.</p>
@@ -90,7 +92,9 @@ const Home: NextPage = () => {
                 <a href="https://github.com/Pengiie/Pengo" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
-            <Image src="pengo-example.png" className="w-7/12 z-0" alt=""/>
+            <div className="w-7/12 min-h-full">
+              <Image src="/pengo-example.png" className="z-0" alt="" layout="responsive" width="100%" height="56.25%" />
+            </div>
           </section>
         </div>
       </section>
