@@ -32,9 +32,9 @@ const Home: NextPage = () => {
       </div>
       <section className="bg-palette-2 h-screen">
         <div className="mx-72 flex flex-col justify-center w-1/2 h-full">
-          <h2 className="text-palette-0 text-2xl transition-all delay-100 duration-100 fade-in">Hello I'm</h2>
+          <h2 className="text-palette-0 text-2xl transition-all delay-100 duration-100 fade-in">{"Hello I'm"}</h2>
           <h1 className="text-gray-300 text-7xl mb-2 font-bold transition-all delay-200 duration-200 fade-in">Nathan Sanchez.</h1>
-          <p className="text-gray-400 text-xl mb-5 transition-all delay-300 duration-200 fade-in">I'm a student at ASU studying computer science. I'm interested in graphics development and also fullstack development. Currently I'm looking to expand my knowledge by working on numerous projects and improve.</p>
+          <p className="text-gray-400 text-xl mb-5 transition-all delay-300 duration-200 fade-in">{"I'm a student at ASU studying computer science. I'm interested in graphics development and also fullstack development. Currently I'm looking to expand my knowledge by working on numerous projects and improve."}</p>
           <a href="#projects">
             <div className="border-white border-2 rounded-sm text-white text-2xl p-5 text-center hover:bg-white hover:text-black cursor-pointer flex items-center w-fit transition-all delay-500 duration-200 fade-in">
               <p>See Projects</p>
@@ -51,11 +51,11 @@ const Home: NextPage = () => {
             <div className="flex-grow bg-white opacity-25 h-0.5 ml-3"/>
           </div>
           <p className="text-gray-400 text-xl mb-5 w-2/3 font-thin">
-            Hey my name is Nathan and I'm looking to pursue a software developer position in the future and I'm striving to achieve that. I began interested in coding when I learned about Minecraft plugins. Through that time I learned Java slowly and later became interested in graphics with OpenGL and over the years have tried developing multiple small game engines.
+            {"Hey my name is Nathan and I'm looking to pursue a software developer position in the future and I'm striving to achieve that. I began interested in coding when I learned about Minecraft plugins. Through that time I learned Java slowly and later became interested in graphics with OpenGL and over the years have tried developing multiple small game engines."}
             <br /><br />
-            Most recently I've worked on a game engine named <LinkedText to="#projects">kotaro</LinkedText> developed in Kotlin. Right now I'm working on a software as a service webapp that manages fitness studio requirements such as memberships, billing, students, and more. This project is being developed in Typescript and leads me to an interest in full-stack development.
+            {"Most recently I've worked on a game engine named "}<LinkedText to="#projects">kotaro</LinkedText>{" developed in Kotlin. Right now I'm working on a software as a service webapp that manages fitness studio requirements such as memberships, billing, students, and more. This project is being developed in Typescript and leads me to an interest in full-stack development."}
             <br /><br />
-            Currently I'm pursuing an education in computer science at ASU. I'm also seeking internship opportunities during the summer to build my skills and prepare for my future.
+            {"Currently I'm pursuing an education in computer science at ASU. I'm also seeking internship opportunities during the summer to build my skills and prepare for my future."}
           </p>
         </div>
       </section>
@@ -70,13 +70,13 @@ const Home: NextPage = () => {
             <div className = "overflow-visible z-50 mt-10 flex-grow">
               <div className="text-lg text-palette-1 flex-col font-thin">Game Engine<h2 className="text-gray-300 text-4xl font-semibold">Kotaro</h2></div>
               <div className="mt-4 p-4 bg-slate-800 rounded-md w-[120%] z-50 overflow-visible pb-2">
-                <p className="text-gray-200 text-lg mb-5">A small game engine written in Kotlin that has basic rendering, asset system, physics, and more. Although the project was never "finished", the engine is still usable for simple games.</p>
+                <p className="text-gray-200 text-lg mb-5">{'A small game engine written in Kotlin that has basic rendering, asset system, physics, and more. Although the project was never "finished", the engine is still usable for simple games.'}</p>
               </div>
               <div className="mt-4 max-w-[2.25rem]">
                 <a href="https://github.com/Pengiie/kotarOld" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
-            <img src="kotaro-example.png" className="z-0 w-7/12"/>
+            <Image src="kotaro-example.png" className="z-0 w-7/12" alt=""/>
           </section>
           <section className="w-full flex flex-row-reverse mt-20 transition-all duration-500 delay-300 fade-in">
             <div className = "overflow-visible z-50 mt-10 flex-grow">
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
                 <a href="https://github.com/Pengiie/Pengo" target="_blank" rel="noreferrer" className="w-10"><AiFillGithub className="text-white hover:text-palette-1 h-9 w-9" /></a>
               </div>
             </div>
-            <img src="pengo-example.png" className="w-7/12 z-0"/>
+            <Image src="pengo-example.png" className="w-7/12 z-0" alt=""/>
           </section>
         </div>
       </section>
