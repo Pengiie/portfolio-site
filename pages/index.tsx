@@ -63,9 +63,9 @@ const Home: NextPage = () => {
             <div className="flex-grow bg-white opacity-25 h-0.5 ml-3"/>
           </div>
           <section className="w-full flex transition-all duration-500 delay-300 fade-in md:flex-row flex-col">
-            <div className = "overflow-visible z-50 mt-10 md:w-5/12 w-full flex md:block">
+            <div className = "overflow-visible z-50 mt-10 md:w-5/12 w-full flex flex-col md:block">
               <div className="text-lg text-palette-1 flex-col font-thin">Game Engine<h2 className="text-gray-300 text-4xl font-semibold">Kotaro</h2></div>
-              <div className="flex-grow pl-10 md:pl-0">
+              <div className="flex-grow">
                 <div className="mt-4 p-4 bg-slate-800 rounded-md lg:w-[120%] md:w-[140%] w-full z-50 overflow-visible pb-2">
                   <p className="text-gray-200 text-lg mb-5">{'A small game engine written in Kotlin that has basic rendering, asset system, physics, and more. Although the project was never "finished", the engine is still usable for simple games.'}</p>
                 </div>
@@ -79,9 +79,9 @@ const Home: NextPage = () => {
             </div>
           </section>
           <section className="w-full flex md:flex-row-reverse flex-col mt-20 transition-all duration-500 delay-300 fade-in">
-            <div className = "overflow-visible z-50 mt-10 md:w-5/12 w-full flex md:block">
+            <div className = "overflow-visible z-50 mt-10 md:w-5/12 w-full flex flex-col md:block">
               <div className="text-lg text-palette-1 flex-col font-thin md:text-right text-left">Programming Language<h2 className="text-gray-300 text-4xl font-semibold">Pengo</h2></div>
-              <div className="flex-grow pl-10 md:pl-0">
+              <div className="flex-grow">
                 <div className="mt-4 p-4 bg-slate-800 rounded-md lg:w-[120%] md:w-[140%] w-full z-50 overflow-visible pb-2 md:float-right">
                   <p className="text-gray-200 text-lg mb-5">A small programming language created in C++ in ~10 days. This project allowed me to learn how programming languages are parsed and compiled/interpreted.</p>
                 </div>
