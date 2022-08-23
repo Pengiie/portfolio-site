@@ -37,7 +37,7 @@ const Navbar = () => {
         }
     }, []);
     return (
-    <nav className="w-full flex pl-12 pr-48 py-6 bg-palette-2 text-white items-center fixed top-0 transition-[top shadow] duration-300 z-50">
+    <nav className="w-screen flex md:pl-12 pl-7 lg:pr-48 pr-12 py-6 bg-palette-2 text-white items-center fixed top-0 transition-[top shadow] duration-300 z-50">
         <h1 className="text-3xl flex-grow font-proxima-nova-condensed">NS</h1>
         <NavButton title="Projects" to="#projects"/>
         <NavButton title="About" to="#about"/>
