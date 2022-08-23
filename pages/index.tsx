@@ -90,7 +90,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="xl:relative xl:left-0 xl:min-h-full xl:w-7/12 md:absolute md:left-[-7rem] md:min-h-[125%] mt-5 md:w-9/12 w-full">
+            <div className="xl:relative xl:left-0 xl:min-h-full xl:w-7/12 md:absolute lg:left-[-7rem] md:left-[-3rem] min-h-[125%] md:min-h-[115%] lg:mt-5 lg:w-9/12 md:w-8/12 md:mt-16 mt-5 relative w-full">
               <Image src="/pengo-example.png" className="z-0" alt="" layout="responsive" width="100%" height="56.25%"/>
             </div>
           </section>
